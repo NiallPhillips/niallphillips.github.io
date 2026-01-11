@@ -7,10 +7,27 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build artifacts
 dist
 dist-ssr
 *.local
+
+# Testing and coverage
+coverage
+*.lcov
+.vitest
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Caches
+.eslintcache
 
 # Editor directories and files
 .vscode/*
